@@ -1,0 +1,145 @@
+body, html {
+    height: 100%;
+    margin: auto; 
+    overflow: hidden; 
+}
+@font-face {
+    font-family: ERTHQAKE;
+    src: url("../media/font/ERTHQAKE.ttf") format('truetype');
+}
+ 
+ 
+ 
+ 
+.container {
+    position: relative;
+    height: 100%;
+}
+ 
+ 
+.background-image {
+    background-image: url("../media/images/img-2.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+   
+    height: 100%;
+}
+ 
+ 
+ 
+ 
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 13px;
+    display: flex;
+    font-family: ERTHQAKE;
+}
+ 
+ 
+.menu button {
+    font-family: ERTHQAKE;
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 4px solid #88b518;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+ 
+ 
+.menu button:hover {
+    background-color: #88b518;
+}
+ 
+ 
+.RBRow {
+    border: 4px solid #f77032;
+}
+ 
+ 
+.FolkRow {
+    border: 4px solid #c50404;
+}
+ 
+ 
+.RockRow {
+    border: 4px solid #000000;
+}
+.BluesRow {
+    border: 4px solid #003cff;
+}
+ 
+ 
+ 
+ 
+.img {
+    margin-top: 40px;
+    padding: 90px;
+    float: left;
+}
+ 
+ 
+ 
+ 
+.img img {
+    width: 120%;
+    height: 100px;
+    display: block;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 4px solid #dddddd;
+    border-radius: 4px;
+    padding: 5px;
+   
+   
+}
+ 
+ 
+.image-container {
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.overlay {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    right: 0;
+    background-color: rgba(4, 28, 37, 0.7);
+    overflow: hidden;
+    width: 130%;
+    height: 0;
+    transition: .5s ease;
+}
+ 
+ 
+.text {
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+ 
+ 
+.image-container:hover .overlay {
+    height: 100%;
+ }
+ 
+ 
+.music{
+    position: absolute;
+    top: 90%;
+    left: 30%; 
+}
+ 
